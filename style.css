@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  background-image: url('https://images.unsplash.com/photo-1551879403-6adb554966fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
+  background-size: cover;
+  background-position: center center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin-top: 7rem;
+  text-align: center;
+  color: rgb(192, 105, 105);
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.countdown-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.countdown-container div {
+  margin: 0 30px;
+}
+
+.countdown-container p {
+  color: brown;
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+.countdown-container span {
+  color: rgb(192, 105, 105);
+  font-size: 1.3rem;
+  font-weight: 100;
+}
